@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22db930b4ed76b944afe5aae019c54d2, type: 3}
+  m_Name: Comandandante
+  m_EditorClassIdentifier: 
+  desbloqueada: 1
+  finalizado: 0
+  reUsar: 0
+  dialogos:
+  - personaje: {fileID: 11400000, guid: db89ee633fac0d24b893cf4c56e0f9aa, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Tengo una mision para ti si eres valiente
+  - personaje: {fileID: 11400000, guid: db89ee633fac0d24b893cf4c56e0f9aa, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Tendras que encontrar la zona donde se refugia el comandante
+  - personaje: {fileID: 11400000, guid: db89ee633fac0d24b893cf4c56e0f9aa, type: 2}
+    sonido: {fileID: 0}
+    dialogo: No te recomiendo enfrentarlo todavia
+  - personaje: {fileID: 11400000, guid: db89ee633fac0d24b893cf4c56e0f9aa, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Presiona E para comenzar la mision
+  pregunta: {fileID: 0}

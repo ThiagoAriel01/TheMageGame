@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22db930b4ed76b944afe5aae019c54d2, type: 3}
+  m_Name: BoosFinal
+  m_EditorClassIdentifier: 
+  desbloqueada: 1
+  finalizado: 0
+  reUsar: 0
+  dialogos:
+  - personaje: {fileID: 11400000, guid: 401edb3a802e3b045914c7d835813873, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Nunca lograras acabar conmigo iluso
+  - personaje: {fileID: 11400000, guid: 401edb3a802e3b045914c7d835813873, type: 2}
+    sonido: {fileID: 0}
+    dialogo: O no!! Tiene la Aerondigth
+  - personaje: {fileID: 11400000, guid: 401edb3a802e3b045914c7d835813873, type: 2}
+    sonido: {fileID: 0}
+    dialogo: Da igual, sucumbiras ante mi
+  pregunta: {fileID: 0}

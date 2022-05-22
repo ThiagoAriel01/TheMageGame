@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5d29eda51a9e949aae933264a5c0fc, type: 3}
+  m_Name: Quest
+  m_EditorClassIdentifier: 
+  misions:
+  - ID: 0
+    name: El comienzo del Fin
+    description: Enfrentate al jefe de las tropas del rey
+    questType: 1
+    diferentesItems: 0
+    seQuedaConItems: 0
+    datos: []
+    cantidad: 1
+    enemyID: 2
+    gold: 350
+    xp: 1500
+    hasSpecialR: 1
+    specialR:
+    - nombre: Daga
+      reward: {fileID: 1832400841063845649, guid: 0332ff2d231431d4ea8d888132cb91fb,
+        type: 3}
+  - ID: 1
+    name: Adicto al Mana
+    description: traeme 3 potys de mana
+    questType: 0
+    diferentesItems: 0
+    seQuedaConItems: 0
+    datos:
+    - nombre: Potys de Mana
+      cantidad: 3
+      itemId: 2
+    cantidad: 0
+    enemyID: 0
+    gold: 350
+    xp: 100
+    hasSpecialR: 0
+    specialR: []
+  - ID: 2
+    name: Encuentra la zona del Comandante
+    description: Donde se esconden las maldades
+    questType: 2
+    diferentesItems: 0
+    seQuedaConItems: 0
+    datos:
+    - nombre: Hoja de Salvia
+      cantidad: 3
+      itemId: 2
+    cantidad: 0
+    enemyID: 0
+    gold: 350
+    xp: 1500
+    hasSpecialR: 0
+    specialR: []
+  - ID: 3
+    name: Entrada en Calor
+    description: Elimina varios secuaces del Rey
+    questType: 1
+    diferentesItems: 0
+    seQuedaConItems: 0
+    datos:
+    - nombre: Hoja de Salvia
+      cantidad: 3
+      itemId: 2
+    cantidad: 4
+    enemyID: 0
+    gold: 350
+    xp: 1500
+    hasSpecialR: 1
+    specialR:
+    - nombre: Daga
+      reward: {fileID: 1832400841063845649, guid: 0332ff2d231431d4ea8d888132cb91fb,
+        type: 3}
+  - ID: 4
+    name: The Queen's Dead
+    description: Mata a la malvada Reina
+    questType: 1
+    diferentesItems: 0
+    seQuedaConItems: 0
+    datos:
+    - nombre: Hoja de Salvia
+      cantidad: 3
+      itemId: 2
+    cantidad: 1
+    enemyID: 3
+    gold: 1000
+    xp: 500
+    hasSpecialR: 1
+    specialR:
+    - nombre: Aerondight
+      reward: {fileID: 5247596439242684087, guid: 1cca3e8af6df79c47aaa086d08669cc3,
+        type: 3}
+  - ID: 5
+    name: The Last Mision
+    description: Acaba con la vida del Rey
+    questType: 1
+    diferentesItems: 0
+    seQuedaConItems: 0
+    datos:
+    - nombre: Hoja de Salvia
+      cantidad: 3
+      itemId: 2
+    cantidad: 1
+    enemyID: 4
+    gold: 350
+    xp: 1500
+    hasSpecialR: 0
+    specialR: []
+  precisionDestino: 1.5
